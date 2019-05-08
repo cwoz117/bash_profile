@@ -1,4 +1,4 @@
-set number
+set relativenumber
 set backspace=indent,eol,start
 set tags=.git/tags
 
@@ -20,4 +20,5 @@ au InsertEnter * highlight StatusLine cterm=bold ctermfg=black ctermbg=green
 
 filetype indent on
 
+color delek
 syntax on
